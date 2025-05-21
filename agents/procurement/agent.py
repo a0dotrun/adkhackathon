@@ -49,7 +49,7 @@ purchase_order_workflow_agent = SequentialAgent(
     sub_agents=[
         purchase_order_bill_parser_agent,
     ],
-    description="Processes a Purchase Order Bill image and returns extracted food line items in JSON format.",
+    description="Processes Purchase Order Bill image and returns extracted food line items in JSON format.",
 )
 
 
